@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 
 // أضف هذا السطر قبل معرفات الـ Routes
-app.use(cors());
 const fs = require('fs');
 const path = require('path');
 
@@ -10,6 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const DATA_FILE = path.join(__dirname, 'chairs.json');
 
+app.use(cors());
 app.use(express.json());
 app.use(express.static(__dirname));
 
