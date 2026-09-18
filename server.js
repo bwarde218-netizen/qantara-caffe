@@ -1,3 +1,7 @@
+const cors = require('cors');
+
+// أضف هذا السطر قبل معرفات الـ Routes
+app.use(cors());
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
