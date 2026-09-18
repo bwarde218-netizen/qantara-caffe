@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1789731726594,
+    "name": "معضل",
+    "image": "https://i.ibb.co/rfbtfcPs/1a915b60-2ab8-4bb4-a131-bcab4848dd6e.jpg",
+    "ratings": [
+      {
+        "rating": 4,
+        "ip": "::1",
+        "timestamp": 1789731742018
+      }
+    ]
+  },
+  {
+    "id": 1789732240647,
+    "name": "tyjyjf",
+    "image": "https://i.ibb.co/Y7Ck3ybp/20251223-072428.jpg",
+    "ratings": [
+      {
+        "rating": 1,
+        "ip": "::1",
+        "timestamp": 1789732749207
+      }
+    ]
+  }
+]
